@@ -1,28 +1,43 @@
 # OtahToDoApp 📝☁️
 
-A simple serverless To-Do List app built using AWS services.
-
-## 🔧 Technologies Used
-- AWS Lambda (for backend logic)
-- API Gateway (to expose RESTful endpoints)
-- DynamoDB (to store ToDo items)
-- S3 (for static site hosting)
-- CloudFormation (to deploy infrastructure as code)
-
-## 📁 Features
-- Add, edit, delete, and view tasks
-- Completely serverless architecture
-- Custom-named data model: `OtahToDoItem`
-
-## 🚀 Deployment Steps
-1. Use the CloudFormation template to deploy the backend resources.
-2. Upload the frontend to S3 bucket and enable static hosting.
-3. Test API endpoints using Postman or your browser.
-
-## 🙌🏽 Author
-**Onoghojebi Otaoghene**  
-Aspiring AWS Solutions Architect | Cisco CCST Certified | Based in Warri, Nigeria
+A simple serverless To-Do List app built using AWS services. Built to help users track their tasks with a fully serverless backend.
 
 ---
 
-*Open to feedback and collaboration. This is part of my journey to learn cloud development and support the tech community.*
+## 🚀 Features
+- Create, Read, Update, and Delete tasks
+- Uses a custom data model: `OtahToDoItem`
+- Fully serverless infrastructure
+- Infrastructure-as-code with AWS CloudFormation
+
+---
+
+## 🧰 Technologies Used
+- AWS Lambda
+- API Gateway
+- DynamoDB
+- S3 (Frontend Hosting)
+- CloudFormation
+
+---
+
+## 🛠️ Deployment Guide
+
+1. Deploy the backend with CloudFormation (`template.yaml`).
+2. Upload frontend files (HTML/CSS) to an S3 bucket and enable static website hosting.
+3. Test endpoints with Postman or your browser.
+
+---
+
+## 📂 Project Structure
+
+---
+
+## 👨🏽‍💻 Author
+
+**Otanificent**  
+Aspiring AWS Solutions Architect | Cisco CCST Certified | Based in Warri, Nigeria  
+
+*I’m open to feedback, collaboration, and mentorship as I grow in the cloud space.*
+
+---
