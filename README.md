@@ -19,11 +19,8 @@ A simple serverless To-Do List app built using AWS services.
 2. Upload the frontend to S3 bucket and enable static hosting.
 3. Test API endpoints using Postman or your browser.
 
-## 📸 Screenshots
-(Add any screenshots of the UI or architecture here)
-
 ## 🙌🏽 Author
-**[Your Name]**  
+**Onoghojebi Otaoghene**  
 Aspiring AWS Solutions Architect | Cisco CCST Certified | Based in Warri, Nigeria
 
 ---
